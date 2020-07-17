@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Lesson-02-BDDBehave",
+      "setup": "sudo -H pip3 install behave",
+      "run": "behave",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
