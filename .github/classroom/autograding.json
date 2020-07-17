@@ -2,7 +2,17 @@
   "tests": [
     {
       "name": "a",
-      "setup": "sudo -H pip3 install behave",
+      "setup": "",
+      "run": "sudo apt-get install python3-setuptools",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "b",
+      "setup": "pip3 install behave",
       "run": "behave",
       "input": "",
       "output": "",
