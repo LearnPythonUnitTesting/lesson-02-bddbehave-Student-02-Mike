@@ -12,7 +12,7 @@
     },
     {
       "name": "b",
-      "setup": "pip3 install behave",
+      "setup": "sudo -H pip3 install behave",
       "run": "behave",
       "input": "",
       "output": "",
